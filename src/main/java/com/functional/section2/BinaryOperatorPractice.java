@@ -8,7 +8,5 @@ public class BinaryOperatorPractice {
         BinaryOperator<String> operator = (a,b)-> a+ "." +b;
         //input and output parameters tiene que ser del mismo tipo
         System.out.println(operator.apply("basic","com"));
-
-
     }
 }

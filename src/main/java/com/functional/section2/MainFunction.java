@@ -14,9 +14,7 @@ public class MainFunction {
         Function<String, Integer> functionL = e ->e.length();
         List<Integer> newList = map(list, functionL);
         System.out.println(newList);
-
     }
-
     private static <T,R> List<R> map(List<T> list, Function<T, R> functionL) {
 
         List<R> newList = new ArrayList<>();
